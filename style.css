@@ -1,0 +1,61 @@
+
+#vayo-v5 {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  width: 290px;
+  background: #101b2d;
+  color: white;
+  z-index: 2147483647;
+  padding: 15px;
+  border: 1px solid #26d6a1;
+  border-radius: 14px;
+  box-shadow: 0 8px 35px #0009;
+  font: 13px Arial, sans-serif;
+}
+
+#vayo-v5 * { box-sizing: border-box; }
+
+#vayo-v5 .vayo-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #34e3ad;
+  margin-bottom: 12px;
+}
+
+#vayo-v5 button {
+  background: #23c996;
+  border: 0;
+  border-radius: 7px;
+  padding: 9px;
+  margin: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #071713;
+}
+
+#vayo-v5 .vayo-status {
+  padding: 14px;
+  margin: 10px 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 9px;
+  background: #25354c;
+}
+
+#vayo-v5 .call { color: #27e99a; }
+#vayo-v5 .put { color: #ff6262; }
+#vayo-v5 .wait { color: #ffce64; }
+
+#vayo-v5 .vayo-small {
+  font-size: 11px;
+  color: #b5c4d8;
+  line-height: 1.5;
+}
+
+#vayo-v5 .vayo-row {
+  margin: 8px 0;
+}
+
+#vayo-v5 .vayo-hidden { display: none; }
