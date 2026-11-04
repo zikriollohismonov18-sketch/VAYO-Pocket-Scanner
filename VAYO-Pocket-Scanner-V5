@@ -1,0 +1,23 @@
+
+{
+  "manifest_version": 3,
+  "name": "VAYO AI Pocket Scanner V5",
+  "version": "5.0.0",
+  "description": "Experimental candle scanner for Pocket Option",
+  "permissions": [],
+  "host_permissions": [
+    "https://pocketoption.com/*",
+    "https://*.pocketoption.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://pocketoption.com/*",
+        "https://*.pocketoption.com/*"
+      ],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
