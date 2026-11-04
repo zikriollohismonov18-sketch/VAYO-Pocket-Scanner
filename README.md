@@ -1,1 +1,0 @@
-# VAYO-Pocket-Scanner
